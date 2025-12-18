@@ -1,6 +1,6 @@
 # Apriori-vs-Brute-Force
 Project Summary
-This project implements two association rule mining methods—Apriori and brute force—to identify frequent itemsets and generate association rules from transactional data. The system is fully coded from scratch in Python and supports user-controlled dataset selection, minimum support thresholds, and minimum confidence thresholds.
+This project implements two association rule mining methods, Apriori and brute force, to identify frequent itemsets and generate association rules from transactional data. The system is fully coded from scratch in Python and supports user-controlled dataset selection, minimum support thresholds, and minimum confidence thresholds.
 
 The pipeline loads one of five transaction databases, cleans and sorts the data, extracts the universe of items, and then computes itemset frequencies. Users may select the Apriori algorithm, which employs iterative candidate generation and pruning based on the Apriori property, or a brute-force approach, which evaluates all itemset combinations without pruning. Both methods calculate frequent itemsets at increasing sizes and measure support directly from the transaction set.
 
